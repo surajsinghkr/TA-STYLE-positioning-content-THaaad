@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    height: auto;
+    width: auto;
+}
+.pic1{
+    height: 80px;
+    width: 120px;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    line-height: 36px;
+    color: aliceblue;
+}
+.logo{
+    float: left;
+}
+.link-container{
+    float: right;
+    margin-top: 20px;
+}
+.container{
+    background-color: #5333ed;
+    padding: 1.5%;
+    text-align: center;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.col-1{
+    width: auto;
+    height: auto;
+    float: left;
+}
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    margin: 10px;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px;
+}
+.col-1{
+    height: auto;
+    width: 47%;
+    float: left;
+    margin: 1.5%;
+
+}
+.col-2{
+    height: auto;
+    width: 47%;
+    float: right;
+    text-align: center;
+    margin: 1.5%;
+    border-radius: 10px;
+}
+.container-1{
+    padding: 1.5%;
+    background-color: #2cd4d9;
+}
+.col-3{
+    height: auto;
+    width: 30.33%;
+    margin: 1.5%;
+    float: left;
+    display: inline-block;
+}
+.pic{
+    width: 100%;
+    height: 240px;
+    border-radius: 5px;
+}
+.row{
+    width: auto;
+    height: auto;
+    padding: 1.5%;
+    background-color: #6e7076;
+}
+footer{
+    height: 80px;
+    width: auto;
+    background-color: #5333ed;
+    text-align: right;
+}
+button{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.button-link{
+    font-size: 15px;
+    font-weight: 900;
+}
